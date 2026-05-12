@@ -1,0 +1,42 @@
+{
+  "name": "@ordertoai/cc-payoff-engine",
+  "version": "1.0.0",
+  "description": "Credit card debt payoff calculator engine. Avalanche, snowball, hybrid, and balance-transfer strategies with month-by-month amortization. Powers ccpayoffcalc.com.",
+  "type": "module",
+  "main": "./calc-engine.ts",
+  "types": "./calc-engine.ts",
+  "files": [
+    "calc-engine.ts",
+    "types.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "credit-card",
+    "debt-payoff",
+    "calculator",
+    "avalanche",
+    "snowball",
+    "balance-transfer",
+    "amortization",
+    "personal-finance",
+    "financial-calculator"
+  ],
+  "author": {
+    "name": "Aissam Baidi",
+    "email": "info@ordertoai.com",
+    "url": "https://ccpayoffcalc.com"
+  },
+  "license": "MIT",
+  "homepage": "https://ccpayoffcalc.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ordertoai/cc-payoff-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ordertoai/cc-payoff-engine/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
